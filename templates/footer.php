@@ -1,5 +1,5 @@
 	<div class="width100" style="background-color:#f8f9fb;">
-		<div class="container darkgrey textcenter minpadtop medpadbottom">
+		<div class="container prefooter darkgrey textcenter minpadtop medpadbottom">
 			<div style="margin:0% 6%;">
 				<div class="col-sm-3 col-xs-6">
 				<img id="footerlogo" src="<?= get_template_directory_uri(); ?>/dist/images/certificats-homologacions.png">
