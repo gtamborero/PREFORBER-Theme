@@ -5234,4 +5234,7 @@ a {color:#2375a1;}
 }
 
 /* IDIOMAS */
-.navbar-default .navbar-nav > .wpml-ls-item > a {padding-left:7px; padding-right:7px;}
+@media (min-width: 780px) {
+.navbar-default .navbar-nav > .wpml-ls-item > a {padding-left:7px; padding-right:7px; }
+.navbar-default .wpml-ls-native {display:none;}
+}
