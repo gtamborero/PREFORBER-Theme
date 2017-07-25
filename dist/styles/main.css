@@ -5232,3 +5232,6 @@ a {color:#2375a1;}
   .prefooter .productTitle { font-size:0.9em;}
   .prefooter .iproText { font-size:0.7em;}
 }
+
+/* IDIOMAS */
+.navbar-default .navbar-nav > .wpml-ls-item > a {padding-left:7px; padding-right:7px;}

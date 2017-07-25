@@ -121,18 +121,6 @@ function iproRenderForm1(){
 
 <?php }
 
-function iproInformes(){
-?>
-<!-- DESCARGAR INFORMES -->
-<div class="iproCall text-center">
-	<a href="<?php echo site_url() . "/descargar-informes-gratuitos"; ?>"><div>
-		DESCÁRGUESE NUESTROS ÚLTIMOS INFORMES GRATUITOS<img class="hideshow" src="<?= get_template_directory_uri(); 
-?>/dist/images/flecha-derecha-blanca.png">
-	</div></a>
-</div>
-<!-- FIN DESCARGAR INFORMES -->
-<?php 
-}
 
 function printTel(){
 echo '<a class="white" href="tel:+34 93 822 82 50">93 822 82 50</a>';

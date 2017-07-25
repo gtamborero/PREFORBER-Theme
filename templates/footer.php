@@ -3,22 +3,22 @@
 			<div style="margin:0% 6%;">
 				<div class="col-sm-3 col-xs-6">
 				<img id="footerlogo" src="<?= get_template_directory_uri(); ?>/dist/images/certificats-homologacions.png">
-				<div class="productTitle strong">CERTIFICATS</div>
+				<div class="productTitle strong"><?php _e("CERTIFICATS","sage"); ?></div>
 				<!--<div class="iproText">Lorem ipsim Lorem ipsim Lorem ipsim Lorem ipsim </div>-->
 				</div>
 				<div class="col-sm-3 col-xs-6">
 				<img id="footerlogo" src="<?= get_template_directory_uri(); ?>/dist/images/qualitat-prefabricados-hormigon.png">
-				<div class="productTitle strong">QUALITAT</div>
+				<div class="productTitle strong"><?php _e("QUALITAT","sage"); ?></div>
 				
 				</div>
 				<div class="col-sm-3 col-xs-6">
 				<img id="footerlogo" src="<?= get_template_directory_uri(); ?>/dist/images/profesionalitat-formigo.png">
-				<div class="productTitle strong">PROFESIONALITAT</div>
+				<div class="productTitle strong"><?php _e("PROFESIONALITAT","sage"); ?></div>
 			
 				</div>
 				<div class="col-sm-3 col-xs-6">
 				<img id="footerlogo" src="<?= get_template_directory_uri(); ?>/dist/images/compromis-bergueda.png">
-				<div class="productTitle strong">COMPROMÍS</div>
+				<div class="productTitle strong"><?php _e("COMPROMÍS","sage"); ?></div>
 				
 				</div>
 			</div>
@@ -38,7 +38,8 @@
 				</a>
 			</div>	
 			<div class="col-sm-4 col-xs-12 textright responsivefootheight">
-			<a href="/politica-cookies" class="white">Política de Cookies</a> &nbsp; <a href="/politica-privacitat" class="white">Avis Legal</a>
+
+			<a href="<?php if(ICL_LANGUAGE_CODE == 'es'){ echo "/es"; } ?>/politica-cookies" class="white"><?php _e("Política de Cookies","sage"); ?></a> &nbsp; <a href="<?php if(ICL_LANGUAGE_CODE == 'es'){ echo "/es"; } ?>/politica-privacitat" class="white"><?php _e("Avis Legal","sage"); ?></a>
 			</div>		
 		</div>
 	</div>
@@ -90,7 +91,7 @@ jQuery( document ).ready(function() {
 		jQuery("#cookieAlert").css("line-height", "24px");
 
         // TEXTO
-        jQuery("#cookieAlert").html("Utilizamos cookies propias y de terceros para mejorar nuestros servicios, mediante el análisis de su navegación por nuestro website. Si continua navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información <a id=cookies href="+ linkPoliticaCookies +">aquí</a>. &nbsp; <a id=acepto>Acepto</a> ");
+        jQuery("#cookieAlert").html("<?php _e("Utilizamos cookies propias y de terceros para mejorar nuestros servicios, mediante el análisis de su navegación por nuestro website. Si continua navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información","sage"); ?><a id=cookies href="+ linkPoliticaCookies +"><?php _e("aquí","sage"); ?></a>. &nbsp; <a id=acepto><?php _e("Acepto","sage"); ?></a> ");
     
         jQuery("#cookieAlert a").css("cursor", "pointer");
 
@@ -118,7 +119,7 @@ jQuery( document ).ready(function() {
         });
     };
     
-    jQuery('.wpcf7-submit').prop('title', 'Recuerde aceptar la política de cookies');
+    jQuery('.wpcf7-submit').prop('title', '<?php _e("Recuerde aceptar la política de cookies","sage"); ?>');
 });
 // COOKIES FIN
 

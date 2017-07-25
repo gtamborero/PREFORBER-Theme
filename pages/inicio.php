@@ -10,7 +10,7 @@
 <!-- PRODUCTOS -->
 <a name="PRODUCTES"></a>
 <div class="container text-center medpadtop maxpadbottom">
-<div class="headTitle">PRODUCTES</div>
+<div class="headTitle"><?php _e("PRODUCTES", "sage"); ?></div>
 <div class="microLine"></div>
 
 	<?php
@@ -40,7 +40,7 @@
 <div class="width100 bgcolorwhite ">
 <a name="PROJECTES"></a>
 	<div class="container medpadtop medpadbottom text-center bgcolorwhite">
-	<div class="headTitle">PROJECTES</div>
+	<div class="headTitle"><?php _e("PROJECTES", "sage"); ?></div>
 	<div class="microLine"></div>
 		<?php iproNoticias(); ?>
 	</div>
@@ -53,7 +53,7 @@
 			<img src="<?= get_template_directory_uri(); ?>/dist/images/mapa-preforber-contacte.jpg">
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 minpadtop textcenter">
-			<div class="headTitle responsivecontacttop">CONTACTE</div>
+			<div class="headTitle responsivecontacttop"><?php _e("CONTACTE", "sage"); ?></div>
 			<div class="microLine"></div>
 			<div class="color1 productTitle" style="width:70%; margin:5% 15%; padding:5%;  background-color:white; border:1px solid #2375a1; -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
@@ -68,8 +68,8 @@ border-radius: 4px;">
 
 <div class="width100 bgcolor1">
 	<div style="text-transform:uppercase;" class="container minpadtop minpadbottom text-center white productTitle">
-	SI NECESITES MÉS INFORMACIÓ TRUCA'NS AL <strong><?php printTel(); ?></strong> <br />
-	O completa <strong>EL SEGÜENT FORMULARI</strong>
+	<?php _e("SI NECESITES MÉS INFORMACIÓ TRUCA'NS AL ", "sage"); ?> <strong><?php printTel(); ?></strong> <br />
+	<?php _e("O completa", "sage");?> <strong><?php _e("EL SEGÜENT FORMULARI", "sage"); ?></strong>
 	</div>
 </div>
 
