@@ -39,7 +39,7 @@
 			</div>	
 			<div class="col-sm-4 col-xs-12 textright responsivefootheight">
 
-			<a href="<?php if(ICL_LANGUAGE_CODE == 'es'){ echo "/es"; } ?>/politica-cookies" class="white"><?php _e("Política de Cookies","sage"); ?></a> &nbsp; <a href="<?php if(ICL_LANGUAGE_CODE == 'es'){ echo "/es"; } ?>/politica-privacitat" class="white"><?php _e("Avis Legal","sage"); ?></a>
+			<a href="<?php if(ICL_LANGUAGE_CODE == 'es'){ echo "/es"; } ?>/politica-cookies" class="white"><?php _e("Política de Cookies","sage"); ?></a> &nbsp; <a href="<?php if(ICL_LANGUAGE_CODE == 'es'){ echo "/es"; } ?>/<?php _e("avis-legal","sage"); ?>" class="white"><?php _e("Avis Legal","sage"); ?></a>
 			</div>		
 		</div>
 	</div>
@@ -91,7 +91,7 @@ jQuery( document ).ready(function() {
 		jQuery("#cookieAlert").css("line-height", "24px");
 
         // TEXTO
-        jQuery("#cookieAlert").html("<?php _e("Utilizamos cookies propias y de terceros para mejorar nuestros servicios, mediante el análisis de su navegación por nuestro website. Si continua navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información","sage"); ?><a id=cookies href="+ linkPoliticaCookies +"><?php _e("aquí","sage"); ?></a>. &nbsp; <a id=acepto><?php _e("Acepto","sage"); ?></a> ");
+        jQuery("#cookieAlert").html("<?php _e("Utilitzem cookies pròpies i de tercers per millorar els nostres serveis, mitjançant l'anàlisi de la seva navegació pel nostre website. Si contínua navegant, considerem que accepta el seu ús. Pot canviar la configuració o obtenir més informació ","sage"); ?><a id=cookies href="+ linkPoliticaCookies +"> <?php _e("aquí","sage"); ?></a> &nbsp; <a id=acepto><?php _e("Accepto","sage"); ?></a> ");
     
         jQuery("#cookieAlert a").css("cursor", "pointer");
 
@@ -119,7 +119,7 @@ jQuery( document ).ready(function() {
         });
     };
     
-    jQuery('.wpcf7-submit').prop('title', '<?php _e("Recuerde aceptar la política de cookies","sage"); ?>');
+    jQuery('.wpcf7-submit').prop('title', '<?php _e("Recordi acceptar la política de cookies","sage"); ?>');
 });
 // COOKIES FIN
 
