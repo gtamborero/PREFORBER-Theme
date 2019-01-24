@@ -121,6 +121,16 @@ function iproRenderForm1(){
 
 <?php }
 
+function iproRenderForm1_es(){
+?>
+<!-- CONTACT FORM 1 -->
+<div class="text-center bg1container iproForm">
+	<?php echo do_shortcode('[contact-form-7 id="1017" title="Form portada_ES"]'); ?>
+</div>
+<!-- FIN FORM  -->
+
+<?php }
+
 
 function printTel(){
 echo '<a class="white" href="tel:+34 93 822 82 50">93 822 82 50</a>';
@@ -139,3 +149,9 @@ function admin_style() {
   wp_enqueue_style('admin-styles', get_template_directory_uri().'/admin.css');
 }
 add_action('admin_enqueue_scripts', 'admin_style');
+
+// Enqueue if !Home page
+function iproLightSlider() {
+      wp_enqueue_script( 'lightSlider', get_template_directory_uri() . '/dist/scripts/lightslider.min.js', array( 'jquery' ), null, false );
+}
+add_action( 'wp_enqueue_scripts', 'iproLightSlider' );

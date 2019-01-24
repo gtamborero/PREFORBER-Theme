@@ -2,10 +2,36 @@
 /**
  * Template Name: INICIO
  */
-?>
-<?php layerslider(1) ?>
-</div>
 
+ if(ICL_LANGUAGE_CODE != 'es'){ 
+		layerslider(1); 
+	} else { 
+		layerslider(3); 
+	} 
+?>
+
+</div></div>
+<div style="width:100%;">
+
+	<?php if(ICL_LANGUAGE_CODE != 'es'){ ?>
+	<a href="https://www.preforber.com/producte/vestidor-sanitari/">
+		<picture>
+		  <source media="(max-width: 800px)" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/vestidor-sanitari-obligatori-movil.jpg">
+		  <source media="(min-width: 801px)" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/vestidor-sanitari-obligatori.jpg">
+		  <img style="width:100%;" src="<?php echo get_template_directory_uri(); ?>/dist/images/vestidor-sanitari-obligatori.jpg">
+		</picture>
+	</a>
+	<?php } else { ?>
+	<a href="https://www.preforber.com/es/producte/vestidor-sanitario/">
+		<picture>
+		  <source media="(max-width: 800px)" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/vestidor-sanitario-obligatorio-movil.jpg">
+		  <source media="(min-width: 801px)" srcset="<?php echo get_template_directory_uri(); ?>/dist/images/vestidor-sanitario-obligatorio.jpg">
+		  <img style="width:100%;" src="<?php echo get_template_directory_uri(); ?>/dist/images/vestidor-sanitario-obligatorio.jpg">
+		</picture>
+	</a>
+	<?php } ?>	
+	
+</div>
 
 <!-- PRODUCTOS -->
 <a name="PRODUCTES"></a>
@@ -68,15 +94,22 @@ border-radius: 4px;">
 
 <div class="width100 bgcolor1">
 	<div style="text-transform:uppercase;" class="container minpadtop minpadbottom text-center white productTitle">
-	<?php _e("SI NECESITES MÉS INFORMACIÓ TRUCA'NS AL ", "sage"); ?> <strong><?php printTel(); ?></strong> <br />
+	<?php _e("SI NECESSITES MÉS INFORMACIÓ TRUCA'NS AL ", "sage"); ?> <strong><?php printTel(); ?></strong> <br />
 	<?php _e("O completa", "sage");?> <strong><?php _e("EL SEGÜENT FORMULARI", "sage"); ?></strong>
 	</div>
 </div>
 
 <div class="width100 bgcolorwhite minpadtop medpadbottom">
 <div class="container minpadtop text-center bgcolorwhite">
-	<?php iproRenderForm1(); ?>
+	<?php 
+	if(ICL_LANGUAGE_CODE != 'es'){
+		iproRenderForm1(); 
+	}else{
+		iproRenderForm1_es();
+	}
+	?>
 </div>
 </div>
+<?php wp_footer(); 
 
 	
