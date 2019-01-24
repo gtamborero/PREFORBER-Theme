@@ -1,6 +1,12 @@
 <?php
   // For use with Sagextras (https://github.com/storm2k/sagextras)
 ?>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVJDZ2T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   
 	<div style="background-color:#2375a1; color:#fff; padding:6px;" >
