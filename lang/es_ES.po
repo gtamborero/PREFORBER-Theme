@@ -1,13 +1,17 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2017-09-01 14:20+0000\n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: Loco - https://localise.biz/"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"PO-Revision-Date: 2017-09-01 14:21+0000\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: Sage Starter Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: iproject <info@iproject.cat>\n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0"
 
 #: index.php:5 search.php:5
 msgid "Sorry, no results were found."
@@ -41,58 +45,9 @@ msgid ""
 "//browsehappy.com/\">upgrade your browser</a> to improve your experience."
 msgstr ""
 
-#. Name of the template
-#. Name of the template
-msgid "NOTICIAS"
-msgstr ""
-
-#: templates/footer.php:6
-msgid "CERTIFICATS"
-msgstr ""
-
-#: templates/footer.php:11
-msgid "QUALITAT"
-msgstr ""
-
-#: templates/footer.php:16
-msgid "PROFESIONALITAT"
-msgstr ""
-
-#: templates/footer.php:21
-msgid "COMPROMÍS"
-msgstr ""
-
-#: templates/footer.php:42
-msgid "Política de Cookies"
-msgstr ""
-
 #: templates/footer.php:42
 msgid "avis-legal"
-msgstr ""
-
-#: templates/footer.php:42
-msgid "Avis Legal"
-msgstr ""
-
-#: templates/footer.php:94
-msgid ""
-"Utilitzem cookies pròpies i de tercers per millorar els nostres serveis, "
-"mitjançant l'anàlisi de la seva navegació pel nostre website. Si contínua "
-"navegant, considerem que accepta el seu ús. Pot canviar la configuració o "
-"obtenir més informació "
-msgstr ""
-
-#: templates/footer.php:94
-msgid "aquí"
-msgstr ""
-
-#: templates/footer.php:94
-msgid "Accepto"
-msgstr ""
-
-#: templates/footer.php:122
-msgid "Recordi acceptar la política de cookies"
-msgstr ""
+msgstr "aviso-legal"
 
 #: templates/header.php:17
 msgid "Toggle navigation"
@@ -151,30 +106,6 @@ msgstr ""
 msgid "INICIO"
 msgstr ""
 
-#: pages/inicio.php:18
-msgid "PRODUCTES"
-msgstr ""
-
-#: pages/inicio.php:48
-msgid "PROJECTES"
-msgstr ""
-
-#: pages/inicio.php:61
-msgid "CONTACTE"
-msgstr ""
-
-#: pages/inicio.php:76
-msgid "SI NECESSITES MÉS INFORMACIÓ TRUCA'NS AL "
-msgstr ""
-
-#: pages/inicio.php:77
-msgid "O completa"
-msgstr ""
-
-#: pages/inicio.php:77
-msgid "EL SEGÜENT FORMULARI"
-msgstr ""
-
 #. Theme Name of the plugin/theme
 msgid "Sage Starter Theme"
 msgstr ""
@@ -196,3 +127,80 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "https://roots.io/"
 msgstr ""
+
+#. Name of the template
+#. Name of the template
+msgid "NOTICIAS"
+msgstr "NOTICIAS"
+
+#: templates/footer.php:6
+msgid "CERTIFICATS"
+msgstr "CERTIFICADOS"
+
+#: templates/footer.php:11
+msgid "QUALITAT"
+msgstr "CALIDAD"
+
+#: templates/footer.php:16
+msgid "PROFESIONALITAT"
+msgstr "PROFESIONALIDAD"
+
+#: templates/footer.php:21
+msgid "COMPROMÍS"
+msgstr "COMPROMISO"
+
+#: templates/footer.php:42
+msgid "Política de Cookies"
+msgstr "Política de Cookies"
+
+#: templates/footer.php:42
+msgid "Avis Legal"
+msgstr "Aviso Legal"
+
+#: templates/footer.php:94
+msgid ""
+"Utilitzem cookies pròpies i de tercers per millorar els nostres serveis, "
+"mitjançant l'anàlisi de la seva navegació pel nostre website. Si contínua "
+"navegant, considerem que accepta el seu ús. Pot canviar la configuració o "
+"obtenir més informació "
+msgstr ""
+"Utilizamos cookies propias y de terceros para mejorar nuestros servicios, "
+"mediante el análisis de su navegación por nuestro website. Si continua "
+"navegando, consideramos que acepta su uso. Puede cambiar la configuración u "
+"obtener más información"
+
+#: templates/footer.php:94
+msgid "aquí"
+msgstr "aquí"
+
+#: templates/footer.php:94
+msgid "Accepto"
+msgstr "Acepto"
+
+#: templates/footer.php:122
+msgid "Recordi acceptar la política de cookies"
+msgstr "Recuerde aceptar la política de cookies"
+
+#: pages/inicio.php:18
+msgid "PRODUCTES"
+msgstr "PRODUCTOS"
+
+#: pages/inicio.php:48
+msgid "PROJECTES"
+msgstr "PROYECTOS"
+
+#: pages/inicio.php:61
+msgid "CONTACTE"
+msgstr "CONTACTO"
+
+#: pages/inicio.php:76
+msgid "SI NECESSITES MÉS INFORMACIÓ TRUCA'NS AL "
+msgstr "SI NECESITAS MÁS INFORMACIÓN LLÁMANOS AL"
+
+#: pages/inicio.php:77
+msgid "O completa"
+msgstr "O completa"
+
+#: pages/inicio.php:77
+msgid "EL SEGÜENT FORMULARI"
+msgstr "EL SIGUIENTE FORMULARIO"
