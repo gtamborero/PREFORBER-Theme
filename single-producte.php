@@ -57,9 +57,9 @@ strong { color: var(--color1) !important; }
 	 
 		<div class="col2"> 
 			<?php
-			echo '<strong>Tamany:</strong> '; the_field("tamany");
+			echo '<strong>' . __("Tamany", "sage") . ':</strong> '; the_field("tamany");
 			echo "<br><br>";
-			echo '<strong>Preu:</strong> '; the_field("preu");
+			echo '<strong>' . __("Preu", "sage") . ':</strong> '; the_field("preu");
 			echo "<br><br>";
 			
 			$file = get_field('pdf');
